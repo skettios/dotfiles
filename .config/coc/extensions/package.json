@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "coc-lua": ">=1.0.1",
+    "coc-rust-analyzer": ">=0.68.1"
+  }
+}
