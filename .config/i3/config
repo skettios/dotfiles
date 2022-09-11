@@ -132,6 +132,7 @@ for_window [class="looking-glass-client"] fullscreen enable
 
 assign [class="discord"] $ws3
 assign [class="firefox"] $ws2
+assign [class="Google-chrome"] $ws2
 assign [class="looking-glass-client"] $ws9
 assign [class="obs"] $ws8
 assign [class="vlc"] $ws7
