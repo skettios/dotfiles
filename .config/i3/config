@@ -127,7 +127,7 @@ bindsym $mod+r mode "resize"
 
 # Window Modifiers
 for_window [class=".*"] border pixel 3
-for_window [class="st-256color" title="ranger"] floating enable, resize set 1280 720, move position center
+for_window [class="kitty" title="ranger"] floating enable, resize set 1280 720, move position center
 for_window [class="looking-glass-client"] fullscreen enable
 
 assign [class="discord"] $ws3
