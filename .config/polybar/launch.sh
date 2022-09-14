@@ -9,7 +9,7 @@ echo $primary
 echo $secondary
 
 MONITOR=$primary polybar primary &
-if [ "$secondary" != "$primary" ]; then
+if [ "$secondary" != "" ]; then
     MONITOR=$secondary polybar secondary &
 fi
 
