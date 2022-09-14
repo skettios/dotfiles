@@ -1,5 +1,7 @@
 call plug#begin()
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    Plug 'christoomey/vim-tmux-navigator'
+    Plug 'ctrlpvim/ctrlp.vim'
 call plug#end()
 
 set nobackup

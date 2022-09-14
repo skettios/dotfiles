@@ -161,4 +161,4 @@ client.urgent           $red $red $white $red $red
 exec_always --no-startup-id picom -b
 exec_always --no-startup-id feh --bg-fill ~/.config/wallpaper.jpg
 exec_always --no-startup-id ~/.config/polybar/launch.sh
-
+exec_always --no-startup-id rfkill unblock all
