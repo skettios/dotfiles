@@ -13,4 +13,12 @@ Work/
 .pki/
 .config/discord/
 .node_repl_history
+<<<<<<< HEAD
 .npm/
+=======
+.bash*
+.config/dconf/
+.icons/
+.shell*
+.zshrc.pre-oh-my-zsh
+>>>>>>> b2d57614c67fbcbf4f859911345ecb72d24c7b77
