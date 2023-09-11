@@ -1,6 +1,6 @@
 [submodule ".config/astronvim"]
 	path = .config/astronvim
-	url = https://github.com/skettios/astronvim
+	url = git@github.com:skettios/astronvim.git
 [submodule ".config/nvim"]
 	path = .config/nvim
 	url = https://github.com/AstroNvim/AstroNvim
