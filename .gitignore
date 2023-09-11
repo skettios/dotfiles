@@ -1,0 +1,11 @@
+.cache/
+Downloads/
+.fehbg
+.gitconfig
+.local/
+.mozilla/
+.ssh/
+.oh-my-zsh/
+.zcompdump*
+.config/pulse/
+.zsh_history
