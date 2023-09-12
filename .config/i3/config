@@ -28,6 +28,7 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Shift+q kill
 
 bindsym $mod+d exec --no-startup-id $HOME/.config/rofi/launchers/type-2/launcher.sh
+bindsym $mod+Shift+f exec --no-startup-id kitty -1 --class ranger sh -c "ranger"
 
 bindsym $mod+h focus left
 bindsym $mod+j focus down
@@ -132,3 +133,7 @@ bar {
 
 exec_always --no-startup-id feh --bg-scale $HOME/.config/wallpaper.png
 exec_always --no-startup-id picom
+
+for_window [class="ranger"] floating enable focus
+for_window [class="ranger"] resize set width 1280 px height 720 px
+for_window [class="ranger"] move position center
