@@ -30,6 +30,8 @@ bindsym $mod+Shift+q kill
 bindsym $mod+d exec --no-startup-id $HOME/.config/rofi/launchers/type-2/launcher.sh
 bindsym $mod+Shift+f exec --no-startup-id kitty -1 --class ranger sh -c "ranger"
 
+bindsym $mod+Tab workspace back_and_forth
+
 bindsym $mod+h focus left
 bindsym $mod+j focus down
 bindsym $mod+k focus up
