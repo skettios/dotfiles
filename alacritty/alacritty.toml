@@ -1,0 +1,5 @@
+[general]
+import = ["./duskfox.toml"]
+
+[window]
+decorations = "none"
