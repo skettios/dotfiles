@@ -1,0 +1,54 @@
+* {
+  border: none;
+  border-radius: 0;
+  font-size: 14px;
+}
+
+.modules-right {
+  padding-top: 10px;
+  background: #393552;
+}
+
+tooltip {
+  background: #232136;
+}
+
+tooltip label {
+  color: #e0def4;
+}
+
+window#waybar {
+  background: #232136;
+}
+
+#workspaces button.active {
+  background-color: #393552;
+}
+
+#workspaces button:hover {
+  background: #393552;
+}
+
+#workspaces button {
+  border: none;
+  border-radius: 0px;
+}
+
+#taskbar button {
+  border: none;
+  border-radius: 0px;
+  padding-top: 10px;
+}
+
+#taskbar button.active {
+  background-color: #393552;
+}
+
+#taskbar button:hover {
+  background: #393552;
+}
+
+#clock {
+  background: #a3be8c;
+  color: #393552;
+}
